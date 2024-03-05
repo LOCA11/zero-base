@@ -3,12 +3,12 @@
     과제1
     콘솔 화면에 구구단 출력하기
 */
-일반의 학급 미니1 {
-    일반의 정적인 공허한 주된(끈[] args) {
+public class mini1 {
+    public static void main(String[] args) {
         System.out.println("구구단 출력");
- (inti = 1; i <= 9; i++) {
- (int j = 1; j <= 9; j++) {
-                시스템..out.활자로 인쇄하다("%02d x %02d = %02d%n", i, j, i * j);
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                System.out.printf("%02d x %02d = %02d%n", i, j, i * j);
             }
         }
     }
